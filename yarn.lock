@@ -1017,6 +1017,23 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@middy/core@^4.0.9":
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/@middy/core/-/core-4.0.9.tgz#5d51bf772b4348f137cc5a6659dfbee6bd2f4c85"
+  integrity sha512-DZjkBhBJD82UmkFgOebtlluiYpHSYGYVShNvfLUMI8u2pqKu4t00C0oPtYCVsIhU2gyhSdFP4THMD58jn01SIA==
+
+"@middy/http-json-body-parser@^4.0.9":
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/@middy/http-json-body-parser/-/http-json-body-parser-4.0.9.tgz#f47340c170659d15c8edbe576587c3f412fdccba"
+  integrity sha512-q9zVVIahJoT30wO7k3l695VTvuYoXNuupCOoX8O8aYZXRz2u1wNo3xTZfSnhNPZR7W1DtfgrXQkgqRycDHZnQQ==
+  dependencies:
+    "@middy/util" "4.0.9"
+
+"@middy/util@4.0.9":
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/@middy/util/-/util-4.0.9.tgz#1508f335a1c59ae1144a211db9c6e87279e419d6"
+  integrity sha512-p3db9lvzZp+jIYle5hvgBXig5nMoTPTa1Q5ZlZhoFe6uyMkf3IvMhnSaSrHbo+1sOYyyXcVEly4gqMFr2zHf/Q==
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -3072,6 +3089,11 @@ readable-web-to-node-stream@^3.0.0:
   dependencies:
     readable-stream "^3.6.0"
 
+reflect-metadata@^0.1.13:
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
+  integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
+
 regexp.prototype.flags@^1.4.3:
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/regexp.prototype.flags/-/regexp.prototype.flags-1.4.3.tgz#87cab30f80f66660181a3bb7bf5981a872b367ac"
@@ -3484,7 +3506,7 @@ ts-node@^10.9.1:
     v8-compile-cache-lib "^3.0.1"
     yn "3.1.1"
 
-tslib@^1.11.1:
+tslib@^1.11.1, tslib@^1.9.3:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
@@ -3493,6 +3515,13 @@ tslib@^2.1.0, tslib@^2.3.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.1.tgz#0d0bfbaac2880b91e22df0768e55be9753a5b17e"
   integrity sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==
+
+tsyringe@^4.7.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/tsyringe/-/tsyringe-4.7.0.tgz#aea0a9d565385deebb6def60cda342b15016f283"
+  integrity sha512-ncFDM1jTLsok4ejMvSW5jN1VGPQD48y2tfAR0pdptWRKYX4bkbqPt92k7KJ5RFJ1KV36JEs/+TMh7I6OUgj74g==
+  dependencies:
+    tslib "^1.9.3"
 
 type-fest@^0.21.3:
   version "0.21.3"
