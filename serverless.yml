@@ -1,0 +1,18 @@
+service: user-service
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+
+functions:
+  signup:
+    handler: app/handler.Signup
+    events:
+      - httpApi:
+          path: /signup
+          method: get
+
+plugins:
+  - serverless-offline
+  - serverless-plugin-typescript
