@@ -1,7 +1,7 @@
 # package directories
-node_modules
+user_service/node_modules
 jspm_packages
 
 # Serverless directories
-.serverless
-.build
+user_service/.serverless
+user_service/.build
