@@ -6,3 +6,4 @@ jspm_packages
 user_service/.serverless
 user_service/.build
 .DS_Store
+**/.DS_Store
