@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+  <g id="Sopping_bag_button" data-name="Sopping bag button" transform="translate(-327 -57)">
+    <g id="bag" transform="translate(320.56 50.6)">
+      <g id="Group_1173" data-name="Group 1173" transform="translate(6.44 6.4)">
+        <path id="Path_2066" data-name="Path 2066" d="M22.334,11.107a.618.618,0,0,0-.619-.526H18.154V9.125a2.725,2.725,0,1,0-5.45,0V10.58H9.143a.618.618,0,0,0-.619.526L6.449,23.648a.609.609,0,0,0,.139.511.635.635,0,0,0,.48.217H23.805a.628.628,0,0,0,.635-.635.784.784,0,0,0-.031-.2ZM13.974,9.125a1.455,1.455,0,1,1,2.911,0V10.58H13.974V9.125Zm-6.162,14L9.685,11.85H12.7V15.4a.635.635,0,1,0,1.27,0V11.85h2.911V15.4a.635.635,0,1,0,1.27,0V11.85h3.019l1.873,11.271H7.812Z" transform="translate(-6.44 -6.4)" fill="#707070"/>
+      </g>
+    </g>
+    <g id="Ellipse_405" data-name="Ellipse 405" transform="translate(341 71)" fill="#fb6d3a" stroke="#fff" stroke-width="2">
+      <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+      <circle cx="2.5" cy="2.5" r="3.5" fill="none"/>
+    </g>
+  </g>
+</svg>
