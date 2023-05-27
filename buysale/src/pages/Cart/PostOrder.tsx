@@ -5,12 +5,14 @@ import { ConfirmOrder } from "../../api/payment-api";
 
 export const PostOrder = () => {
   const [loading, setLoading] = useState(true);
+  const [confirm, setConfirm] = useState(false);
   const profile = useAppSelector((state) => state.userReducer.userProfile);
 
   useEffect(() => {
-    setTimeout(() => {
+    if (!confirm) {
+      setConfirm(true);
       confirmOrder();
-    }, 1000);
+    }
   }, []);
 
   const confirmOrder = async () => {
